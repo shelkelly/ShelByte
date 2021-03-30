@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+/* NAVBAR STYLING */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2b5d4c;
+    color: white;
+  }
+
+  /*HOME BG &  MAIN CONTAINER*/
+
+.container-fluid {
+    background-image: url("https://github.com/shelkelly/ShelByte/blob/main/client/src/images/2014465.png?raw=true");
+    background-color: black;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    height: 100vh;
+}
+
+.maincontainer {
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 100%;
+    margin: 10%;
+    overflow: auto;
+}
+
+/*H1*/
+
+h1 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}

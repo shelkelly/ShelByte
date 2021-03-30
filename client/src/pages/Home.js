@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import MainContainer from "../components/MainContainer";
-import "./css/stylesheets.css"
+import "./css/style.css"
 
 const Home = () => {
   return (
@@ -9,12 +9,13 @@ const Home = () => {
       <Row>
         <Col size="md-6">
           <MainContainer id="homecontainer">
-            <Banner />
             <Container id="textarea">
-              <p>Welcome to <h1>Betta Bytes</h1></p>
-              <p>Betta Bytes is here to help you find your perfect Betta Fish! Your new fish friend will be coming from its home in Hickory, North Carolina. This is where it's fishkeeper has looked in the glass a hundred times a day, just to see whats new.
+              <h1>. S h e l B y </h1>
+              <h4>Front-End / Back-End Web Developer</h4>
+              <p>Hello! I'm <b>Shelby</b>, a web-developing freelancer out of Hickory, North Carolina. 
               </p>
-              <p>Betta Bytes began with the purchase of a Mustard Half Moon Betta. He ignited a passion for fishkeeping and maintaining aquariums. Starry-eyed, one became two, and then three, and then many. If you share the hobby of these great fish, then come see what we have to offer at Betta Bytes.</p>
+              <p>I have a variety of skills ranging from user interfaces using <b>JavaScript</b> and <b>HTML & CSS</b>. I also have a passion for back-end, server side functionality with <b>NodeJS</b> and other connections. I am familiar with databases such as <b>MYSQL</b> and <b>Mongoose</b>.
+              </p>
               </Container>
           </MainContainer>
         </Col>
