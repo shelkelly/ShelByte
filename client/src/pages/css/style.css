@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
-/* NAVBAR STYLING */
+/* -----NAVBAR STYLING----- */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -25,10 +25,31 @@
     color: white;
   }
 
-  /*HOME BG &  MAIN CONTAINER*/
+  /*-----SCROLLBAR-----*/
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eeeeee; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 101, 194); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+  /*-----HOME BG &  MAIN CONTAINER-----*/
 
 .container-fluid {
-    background-image: url("https://github.com/shelkelly/ShelByte/blob/main/client/src/images/2014465.png?raw=true");
+    background-image: url("https://github.com/shelkelly/ShelByte/blob/main/client/src/images/3162508.jpg?raw=true");
     background-color: black;
     background-position:center;
     background-repeat: no-repeat;
@@ -39,14 +60,39 @@
 
 .maincontainer {
     background-color: rgba(255, 255, 255, 0.719);
-    width: 100%;
-    margin: 10%;
+    margin: 5%;
     overflow: auto;
 }
 
-/*H1*/
+/*-----TEXT AREA-----*/
+#textarea{
+  width: 100%;
+}
+
+/*-----H1-----*/
 
 h1 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
+}
+
+/*-----EXAMPLES DIV-----*/
+#examples {
+  width: 100%;
+}
+.exlink {
+  color: #2e012e;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.exlink:hover {
+  background-color: #2e012e;
+  color: white;
+  text-decoration: none;
+}
+
+/*-----CONTACT DIV-----*/
+#contact {
+  width: 100%;
 }
