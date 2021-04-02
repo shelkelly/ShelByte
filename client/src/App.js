@@ -10,7 +10,6 @@ function App() {
 
     <NavBar />
           <Route exact path="/" component={Home} />
-
       </div>
     </Router>
   );
