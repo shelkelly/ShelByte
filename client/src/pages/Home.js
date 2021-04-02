@@ -51,7 +51,7 @@ const Home = () => {
         <Col size="sm-3">
           <MainContainer id="homecontainer">
             <Container id="examples">
-              <h1>. P r o j e c t s</h1>
+              <h1>. W o r k s</h1>
               <p><ul>
               <li><b><a href="https://arkcustom.herokuapp.com/" class="exlink">Ark Custom Laser Solutions</a></b> - <i><a href="https://github.com/shelkelly/ArkCustoms">Github</a></i> - <b><i>**WIP**</i></b> - E-commerce for a small business. Features the use of MYSQL for storing business inventory, Handlebars for displaying inventory to store front, localStorage in the cart functionality, MYSQL for placed orders, and Bootstrap on the front end.</li>
                 <li><b><a href="https://sxiong6901.github.io/FirstProject/" class="exlink">Scout</a></b> - <i><a href="https://github.com/shelkelly/FirstProject">Github</a></i> - Implication of API from Cryptocompare to check daily values of top ten cryptocurrencies.</li>

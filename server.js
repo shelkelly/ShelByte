@@ -1,8 +1,5 @@
 const express = require("express");
 
-const mongoose = require("mongoose");
-const routes = require("./routes");
-const connection = require("./config/connection");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -13,14 +10,6 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/public"));
 }
-// Add routes, both API and view
-app.use(routes);
-
-// Route to MYSQL Connection
-app.use(connection);
-
-// Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/bettabytes");
 
 // Start the API server
 app.listen(PORT, function() {
