@@ -31,10 +31,6 @@ const Home = () => {
                 <Container id="contact">
 
                   <h1>. C o n t a c t</h1>
-
-                  <p></p><img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/network.png?raw=true" id="contactimg"></img>
-
-
                   <p></p><a href="https://github.com/shelkelly">
                     <img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/github.png?raw=true" id="contactimg"></img>
                   </a>
@@ -44,7 +40,7 @@ const Home = () => {
                   </a>
 
                   <a href="mailto:shelbytecode@gmail.com">
-                    <img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/at.png?raw=true"></img>
+                    <img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/at.png?raw=true" id="contactimg"></img>
                   </a>
                 </Container>
 
@@ -57,7 +53,7 @@ const Home = () => {
             <Container id="examples">
               <h1>. P r o j e c t s</h1>
               <p><ul>
-              <li><b><a href="https://arkcustom.herokuapp.com/" class="exlink">Ark Custom Laser Solutions</a></b> - <i><a href="https://github.com/shelkelly/ArkCustoms">Github</a></i> - E-commerce for a small business. Features the use of MYSQL for storing business inventory, Handlebars for displaying inventory to store front, localStorage in the cart functionality, MYSQL for placed orders, and Bootstrap on the front end.</li>
+              <li><b><a href="https://arkcustom.herokuapp.com/" class="exlink">Ark Custom Laser Solutions</a></b> - <i><a href="https://github.com/shelkelly/ArkCustoms">Github</a></i> - <b><i>**WIP**</i></b> - E-commerce for a small business. Features the use of MYSQL for storing business inventory, Handlebars for displaying inventory to store front, localStorage in the cart functionality, MYSQL for placed orders, and Bootstrap on the front end.</li>
                 <li><b><a href="https://sxiong6901.github.io/FirstProject/" class="exlink">Scout</a></b> - <i><a href="https://github.com/shelkelly/FirstProject">Github</a></i> - Implication of API from Cryptocompare to check daily values of top ten cryptocurrencies.</li>
                 <li><b><a href="https://greatreadsproject.herokuapp.com/" class="exlink">GreatReads</a></b> - <i><a href="https://github.com/shelkelly/Project">Github</a></i> -  Using a database of over 10,000, search by term to find a like author, title or subject to find your next great read.</li>
                 <li><b><a href="https://immense-stream-10834.herokuapp.com/" class="exlink">CovidFit</a></b> - <i><a href="https://github.com/shelkelly/CovidFit-1">Github</a></i> - Use of user authentication, React.js, NutritionixAPI, MYSQL to give the user a simple way to track foods and calories consumed.</li>
