@@ -21,7 +21,7 @@
   }
   
   .topnav a.active {
-    background-color: #2b5d4c;
+    background-color: rgb(110, 101, 194); ;
     color: white;
   }
 
@@ -62,6 +62,16 @@
     background-color: rgba(255, 255, 255, 0.719);
     margin: 5%;
     overflow: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(219, 75, 255, 0.219), 0 6px 20px 0 rgba(255, 88, 88, 0.19);
+}
+
+#overall {
+  overflow: auto;
+}
+
+.container {
+  border-radius: 15px;
 }
 
 /*-----TEXT AREA-----*/
@@ -74,6 +84,7 @@
 h1 {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
+    text-shadow: 2px 2px 3px rgb(170, 60, 180);
 }
 
 /*-----EXAMPLES DIV-----*/
@@ -95,4 +106,15 @@ h1 {
 /*-----CONTACT DIV-----*/
 #contact {
   width: 100%;
+  padding: 5%;
+  text-align: center;
+}
+
+#contactcenter {
+  text-align: center;
+}
+
+#contactimg {
+  width: 15%;
+  padding: 5px;
 }
