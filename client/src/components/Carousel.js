@@ -3,31 +3,25 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import '../pages/css/style.css'
 
-import arkprev from "../images/arkcustom-preview.jpg";
+import arkprev from "../images/ark-shopifypreview.png";
 import ssprev from "../images/suiteskin-preview.jpg";
-import grprev from "../images/greatreads-preview.jpg";
+import grprev from "../images/lap-preview.png";
 
 const items = [
     <div className="item" data-value="1">
         <img src={arkprev} class="responsive" alt="Ark Preview"></img>
         <h1>Ark Custom Laser Creations</h1>
-        <h3>GitHub</h3>
-        <h4>Solo</h4>
-        <p>E-Commerce solution for a laser engraving business. Features Handlebars to render content from MySQL database, localStorage for UX/UI of the Cart feature, JS and Jquery on the back end, Bootstrap implementation on the front end for a smooth interface, and Stripe RESTful API for secure input of sensitive user information.</p>
+        <p>E-Commerce solution for custom laser engraving business. Features Shopify with Quickbooks integration for inventory control, as well as custom user input for placing orders.</p>
     </div>,
     <div className="item" data-value="2">
         <img src={ssprev} class="responsive" alt="Suite Skin Preview"></img>
             <h1>Suite Skin</h1>
-            <h3>Github</h3>
-            <h4>Solo</h4>
-            <p>A small business owner who was looking to upgrade from their Wix website, for their site to be Search Engine Optimized, and to display personal success before and after photos. This site features React, Javascript, Node.js, Bootstrap, HTML and CSS methods such as keyframes, animate and transform.</p>
+            <p>A small business owner looking to upgrade from their Wix website, for their site to be Search Engine Optimized, and to display personal success before and after photos. This site features React, Javascript, Node.js, Bootstrap, HTML and CSS methods such as keyframes, animate and transform.</p>
         </div>,
         <div className="item" data-value="3">
-        <img src={grprev} class="responsive" alt="GreatReads Preview"></img>
-            <h1>GreatReads</h1>
-            <h3>Github</h3>
-            <h4>Group</h4>
-            <p>A small group project using a SQL database of 10,000 books. The form bar is used to search for either title, author or key word. The results then fade into the once empty box. Utilizes MySQL, Javascript, Node.js, Bootstrap, HTML and CSS.</p>
+        <img src={grprev} class="responsive" alt="Life at Praise"></img>
+            <h1>Life at Praise</h1>
+            <p>Life at Praise had a pre-existing website for their Church through Wordpress. They were seeking to have a significantly heavier online presence in the form of Daily Devotions, Sermon Streaming as well as a Sunday Sermon Gallery. Successfully deployed Daily Devotional page and system, allowing for weekly change in video, and automatic rollout of videos each day.</p>
         </div>,
 ];
 

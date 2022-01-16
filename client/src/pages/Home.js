@@ -16,7 +16,7 @@ const Home = () => {
               <h1>Full-Stack Web Developer</h1>
               <p>Hello! I'm <b>Shelby Kelly</b>, a full-stack web developer located in Hickory, North Carolina. I am passionate about making the web a more fun and interactive place to be.
               </p>
-              <p>I have a variety of skills in technologies ranging from Node.Js, Express, JavaScript, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, React Hooks, JSON, Sequelize, C# and more. <b>A good developer never stops learning.</b>
+              <p>I have a variety of skills in technologies ranging from Node.Js, Express, JavaScript, jQuery, Shopify Partners, Wordpress, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, React Hooks, JSON, Sequelize, C# and more. <b>A good developer never stops learning.</b>
               </p>
             </Container>
           </MainContainer>
