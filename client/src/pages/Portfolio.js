@@ -16,7 +16,7 @@ const Portfolio = () => {
                         <Col size="md-2"></Col>
                         <Container id="carouselContainer">
                             <Carousel />
-
+                            <h1>Links</h1>
                             <ul>
                                 <li><b><a href="https://arkcustom.com/" class="exlink">Ark Custom Laser Creations</a></b> - E-commerce website for a small business. Features Shopify with Quickbooks integration for management of inventory and custom order placing.</li>
                                 <li><b><a href="http://www.suiteskinbylindsey.com/" class="exlink">Suite Skin by Lindsey</a></b> - <i><a href="https://github.com/shelkelly/ArkCustoms">Github</a></i> - Small business owner wanted upgrade from Wix site. Did not wan't to manage her website at all, and thus sought out a developer to create and maintain. Occasionally needing website updates for before and after photos, contact information updates, services, products. Client also wanted Search Engine Optimization.</li>

@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <Container id="overall" fluid>
       <Row class="row justify-content-around">
+        <Col size="md-3"></Col>
         <Col size="md-6">
           <MainContainer id="homecontainer" class="homediv">
             <Container id="textarea">
@@ -44,14 +45,7 @@ const Home = () => {
             </Col>
           </Row>
         </Col>
-        <Col size="md-6">
-          <MainContainer id="homecontainer" class="projectsdiv">
-            <Container id="examples">
-              <h1>.Projects</h1>
-              <Carousel />
-            </Container>
-          </MainContainer>
-        </Col>
+        <Col size="md=3"></Col>
       </Row>
     </Container>
   );
