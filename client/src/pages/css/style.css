@@ -103,11 +103,16 @@
   font-family: 'Rubik Moonrocks', cursive;
 }
 
+#imgdiv {
+  height: 150px;
+  margin: auto;
+}
+
+
 #existing {
   height: 15%;
   width: 15%;
   float: left;
-  margin: 15px;
   border-radius: 10px;
 }
 
@@ -115,7 +120,6 @@
   height: 15%;
   width: 15%;
   float: right;
-  margin: 15px;
   border-radius: 10px;
 }
 

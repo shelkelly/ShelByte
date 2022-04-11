@@ -19,8 +19,8 @@ const Home = () => {
               <h1>Web Design & Development</h1>
               <p>Hi! I'm <b>Shelby</b>, a full-stack web developer and designer. I focus on bringing small businesses an online presence. Services include marketing, e-commerce, branding and search engine optimization.
               </p>
-              <p><img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/448240-PF6T2N-302.jpg?raw=true" id="existing"></img>Have an existing site? I can rebrand, update your design or theme, import new content or clean it up for Search Engine Optimization.</p>
-              <p><img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/4787262.jpg?raw=true" id="new"></img>New to the web? I'll get it up and running, saving you time and hassle. I'll stay in contact with you the whole way, ensuring you'll get the design and functionality you seek.</p>
+              <div id="imgdiv"><p id="imgtxt"><img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/448240-PF6T2N-302.jpg?raw=true" id="existing"></img>Have an existing site? I can rebrand, update your design or theme, import and create new content, add functionality or clean it up for Search Engine Optimization.</p></div>
+              <div id="imgdiv"><p id="imgtxt"><img src="https://github.com/shelkelly/ShelByte/blob/main/client/src/images/4787262.jpg?raw=true" id="new"></img>New to the web? I'll get it up and running, saving you time and hassle. I'll stay in contact with you the whole way, ensuring you'll get the design and functionality you seek. When I create a new site for you, this includes Search Engine Optimization, market research and design and development.</p></div>
               <p>I have a variety of skills in technologies ranging from Javascript, HTML5, CSS, Wordpress, Shopify, Elementor, PHP, Node.Js, Express, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, React Hooks, JSON, Sequelize and more. <b>A good developer never stops learning.</b>
               </p>
             </Container>
