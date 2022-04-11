@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 /* -----NAVBAR STYLING----- */
 .topnav {
@@ -93,6 +94,14 @@
 
 
   /*-----HOME BG &  MAIN CONTAINER-----*/
+
+.header {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(97, 30, 80), rgb(25, 22, 66));
+  color: black;
+  padding: 15px;
+  font-family: 'Rubik Moonrocks', cursive;
+}
 
 .container-fluid {
     background-image: url("../../images/3162508.jpg");
