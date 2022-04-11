@@ -103,6 +103,22 @@
   font-family: 'Rubik Moonrocks', cursive;
 }
 
+#existing {
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+#new {
+  height: 15%;
+  width: 15%;
+  float: right;
+  margin: 15px;
+  border-radius: 10px;
+}
+
 .container-fluid {
     background-image: url("../../images/3162508.jpg");
     background-color: black;
