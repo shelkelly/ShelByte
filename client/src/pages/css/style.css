@@ -8,6 +8,12 @@
     background-color: #333;
     padding: 3px 10px;
   }
+
+.logo {
+  height: 60px;
+  width: 65px;
+  border-radius: 5px;
+}
   
   .topnav a {
     float: left;
@@ -103,22 +109,34 @@
   font-family: 'Rubik Moonrocks', cursive;
 }
 
-#imgdiv {
+#logocont {
+  text-align: center;
+  padding-top: 45px;
+}
+
+#biglogo{
   height: 150px;
+  width: 160px;
+  animation: fadein 4s;
+  border-radius: 5px;
+  
+}
+
+#imgdiv {
   margin: auto;
 }
 
 
 #existing {
-  height: 15%;
-  width: 15%;
+  height: 125px;
+  width: 160px;
   float: left;
   border-radius: 10px;
 }
 
 #new {
-  height: 15%;
-  width: 15%;
+  height: 125px;
+  width: 150px;
   float: right;
   border-radius: 10px;
 }
@@ -266,4 +284,9 @@ h4 {
 #aboutcontainer {
   overflow: auto;
   max-height: 85vh;
+}
+
+/*----- ABOUT -----*/
+#contactcontainer {
+  text-align: center;
 }

@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import Carousel from "../components/Carousel";
 import { Col, Row, Container } from "../components/Grid";
 import MainContainer from "../components/MainContainer";
-import "./css/style.css"
+import "./css/style.css";
+import Header from "../components/Header";
 
 
 const Portfolio = () => {
     return (
         <Container id="overall" fluid>
+            <Header />
             <Row class="row justify-content-around">
                 <Col size="md-2"></Col>
                 <Col size="md-8">
